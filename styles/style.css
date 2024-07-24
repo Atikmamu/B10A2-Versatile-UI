@@ -1,24 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-body{
-     background-color: rgb(0, 0, 0);
+body {
+    background-color: rgb(0, 0, 0);
 }
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+
+header {
+    background-color: rgb(17, 17, 17)
+}
+
+main {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* default styles */
+
 * {
     margin: 0;
+    padding: 0;
 }
 
-.container{
-    width: 90%;
-    margin: 5rem auto;
-    border-radius: 1rem;
+.container {
+    width: 1440px;
+    margin: 0 auto;
 
 }
 
@@ -29,70 +45,575 @@ h3 {
     line-height: normal;
 }
 
-
-
-
 /* Navbar styles */
-.nav-bar{
+.nav-bar {
+    width: 1060px;
+    height: 46px;
+    margin-left: 190px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 57px;
-}
-
-.text{
-    display: flex;
-    align-items: center;
-    width:465px;
-
-}
-
-.website{
-    color: rgb(230, 83, 60);
-    display: flex;
+    padding-top: 57px;
+    padding: 0px;
     flex-direction: row;
-    justify-content: flex-start;
+}
+
+.text {
+    display: flex;
     align-items: center;
+    width: 132px;
+    height: 43px;
     padding: 0px;
     margin: 0px 10px;
-    font-size: 2.2rem;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.website {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
     font-weight: 800;
 }
 
 
-.nav-options{
+.nav-options {
+    width: 465px;
+    height: 46px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 4px;
-    gap: 47px;
-    margin: 0 47px;
-    font-weight: 400;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
 }
 
-.option{
+.option {
+    width: 52px;
+    height: 22px;
     background: rgb(230, 83, 60);
     border-radius: 46px;
     padding: 8px 20px 8px 20px;
-    margin: 0px 10px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
-    flex-grow: 0;
-    height: 22px;
     font-size: 18px;
     font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 46px;  
+}
+
+.options{
+    width: 64px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px;
+    margin: 0px 47px;
+    font-size: 18px;
+    font-weight: 400;
+    gap: 47px;
 }
 
 /* banner styles */
+
+/* @font-face {
+    font-family: miama;
+    src: url(../font/folder/Miama.ttf);
+} */
+
 .banner-title{
-    color: rgb(255, 255, 255)
-    rgb(255, 255, 255)
-    rgb(255, 255, 255);
+    font-size: 78px;
+    color: rgb(255, 255, 255);
+    margin: 28px 0px;
+
+}
+
+.text-description{
+    color: rgb(255, 255, 255);
+    margin: 28px 0px;
+}
+
+.btn-primary{
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    margin: 0px 14px;
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 83, 60);
+}
+
+.light-gray{
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px 10px;
+    padding: 16px 40px 16px 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* change your habit styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+.habits-bar{
+    margin-bottom: 58px;
+}
+
+.habits-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 14px 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.habits-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 14px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gym-bar{
+    width: 1044px;
+    height: 274px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 58px 0px;
+    gap: 40px;
+}
+
+.movement-container{
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 40px;
+}
+
+.gym-img{
+    border-radius: 100%;
+}
+
+.movement-title{
+    width: 93px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 6px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.movement-description{
+    width: 231px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 6px 0px;
+}
+
+.time-container{
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 40px;
+}
+
+.time-title{
+    width: 44px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin: 6px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.time-description{
+    width: 231px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 6px 0px;
+}
+
+.practice-container{
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 40px;
+}
+
+.practice-title{
+    width: 72px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 6px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.practice-description{
+    width: 231px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 6px 0px;
+}
+
+.weight-container{
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 0px 40px;
+}
+
+.weight-title{
+    width: 107px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 6px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.weight-description{
+    width: 231px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 6px 0px;
+}
+
+
+/* run an extra mile easily styles */
+.run-bar{
+    width: 1060px;
+    height: 371px;
+    margin: 62px 0px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-text{
+    width: 443px;
+    height: 290px;
+    margin-left: 54px;
+    margin-top: 41px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.run-title{
+    width: 443px;
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 14px 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.run-description{
+    width: 443px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 14px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-secondary{
+    width: 224px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 40px 16px 40px;
+    margin: 34px 0px;
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.run-image{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+/* .trainer-bg{
+    background-image: url(/images/trainer1.png);
+    background-repeat: no-repeat; */
+    /* use hieght and width in imagessss
+    padding: 66px;
+}
+    /* meet your team styles */
+
+    .team-container{
+        background-color: rgb(17, 17, 17);
+        display: grid; gap: 50px;
+        height: 100vh;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px;
+        justify-content: space-around;
+    }
+
+    .team-title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 14px 0px;
+        font-size: 48px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+
+    .team-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 14px 0px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+
+    .trainer-bg-one{
+        background-image: url(../images/trainer1.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        padding: 67px;
+    }
+
+    .trainer-bg-two{
+        background-image: url(../images/trainer2.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 67px;
+    }
+
+    .trainer-bg-three{
+        background-image: url(../images/trainer3.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 67px;
+    }
+
+    .trainer-bg-four{
+        background-image: url(../images/trainer4.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 67px;
+    }
+
+    .trainer-bg-five{
+        background-image: url(../images/trainer5.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 67px;
+    }
+
+    .trainer-bg-six{
+        background-image: url(../images/trainer6.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 67px;
+    }
+
+    /* Footer - styles */
+
+    /* default - styles */
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hr-section{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* footer-bar - styles */
+.section {
+    padding-top: 57px;
+    padding-bottom: 50px;
+}
+
+.content {
+    width: 465px;
+
+}
+
+.website-title {
+    color: rgb(230, 83, 60);
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.fitness-description{
+    margin: 14px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    width:  580px;
+}
+
+
+.footer-options {
+    padding: 8px 20px 8px 20px;
+    gap: 47px;
+    font-weight: 400 rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid ;
+    border-radius: 39px;
+    margin: 8px 8px 8px 47px;
+}
+
+.footer-item{
+    padding: 8px 20px 8px 20px;
+    gap: 47px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    margin: 8px 8px 8px 47px;
 }
 
 
