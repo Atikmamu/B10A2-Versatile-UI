@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Body Fitness</title>
-
     <script src="https://kit.fontawesome.com/76cd2238bf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
@@ -16,9 +15,7 @@
         <!-- Navbar -->
         <nav class="container">
             <div class="nav-bar">
-                <div class="text">
-                    <h3 class="website">Fitness</h3>
-                </div>
+                <h3 class="website">Fitness</h3>
                 <!-- nav options -->
                 <div class="nav-options">
                     <p class="option">Home</p>
@@ -28,68 +25,68 @@
                         <p style="color: white;">About</p>
                     </div>
                 </div>
+                <div class="ham-burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
         </nav>
 
         <!-- banner -->
-        <div class="container explore-your-fitness" style="display: flex; justify-content: space-between;">
-
+        <div class="container explore-your-fitness">
             <!-- banner content -->
-
-
-            <div class="explore-container">
-                <h1 class="banner-title">Get body in <br> <span class="Miama-font">shape</span> & stay <br>healthy</h1>
+            <div class="banner-content">
+                <h1 class="banner-title">Get body in <br> <span class="Miama-font">shape</span> & stay <br> healthy</h1>
                 <p class="text-description">focuses on fitness and wellness tips,nutritional advice, and lifestyle <br>
                     changes to help you achieve and
                     maintain a healthy, active body.</p>
-                <button class="btn-primary">Join Club Now!</button>
+            <div class="button-parent">
+                <button class="btn-primary">Join <span class="span-tag">Club</span>Now! </button>
                 <button class="light-gray">Download App</button>
             </div>
-            <!-- banner image -->
-            <div class="banner-image">
-                <img src="./images/images 2.png" alt="">
             </div>
+
+            <!-- banner image -->
+            <img class="banner-img" src="./images/images 2.png">
         </div>
 
     </header>
 </body>
 
 <main class="inter-font">
-
-
     <!-- change your habit section -->
-    <section class="container">
+    <section class="container habit-section">
         <!-- text -->
-         <div class="habit-section">
-        <div class="container habits-bar">
+
+        <div class="habit-content">
             <h1 class="habits-title">Change Your Habits</h1>
-            <p class="habits-description">Offering insights into building positive habits and breaking negative ones to
-                improve overall <br> well-being and achieve personal growth.</p>
+            <p class="habits-description">Offering insights into building positive habits and achieve personal growth.</p>
         </div>
         <!-- gym image -->
-        <div class="container gym-bar">
-            <div class="movement-container">
+        <div class="gym-bar">
+            <div class="habit-content">
                 <img src="./images/image 3.png" alt="" class="gym-img">
-                <h3 class="movement-title">Movement</h3>
+                <h4 class="title-child">Movement</h4>
                 <p class="movement-description">Exercises to enhance physical <br> improve overall health.</p>
             </div>
-            <div class="time-container">
+            <div class="habit-content">
                 <img src="./images/image 2.png" alt="" class="gym-img">
-                <h3 class="time-title">Time</h3>
+                <h4 class="title-child">Time</h4>
                 <p class="time-description">Effective management strategies <br> to optimize productivity.</p>
             </div>
-            <div class="practice-container">
+            <div class="habit-content">
                 <img src="./images/image 4.png" alt="" class="gym-img">
-                <h3 class="practice-title">Practice</h3>
-                <p class="practice-description">Focuses on techniques to enhance <br> skills and achieve mastery.</p>
-            </div>
-            <div class="weight-container">
-                <img src="./images/image 5.png" alt="" class="gym-img">
-                <h3 class="weight-title">Weight Loss</h3>
-                <p class="weight-description">Offers strategies for achieving and <br> maintaining a healthier weight.
+                <h4 class="title-child">Practice</h4>
+                <p class="practice-description">Focuses on techniques to enhance <br> skills and achieve mastery.
                 </p>
             </div>
-        </div>
+            <div class="habit-content">
+                <img src="./images/image 5.png" alt="" class="gym-img">
+                <h4 class="title-child">Weight Loss</h4>
+                <p class="weight-description">Offers strategies for achieving and <br> maintaining a healthier
+                    weight.
+                </p>
+            </div>
+
         </div>
     </section>
 
@@ -99,7 +96,7 @@
         <div class="run-bar">
             <div class="run-text">
                 <h1 class="run-title">Run an Extra <br> Mile Easily</h1>
-                <p class="run-description">Advice and training techniques to enhance your running <br> stamina and
+                <p class="run-description">Advice and training techniques to enhance your running stamina <br> and
                     endurance, enabling you to increase your distance <br> comfortably and achieve your fitness goals.
                 </p>
                 <button class="btn-secondary">Join Now</button>
@@ -114,18 +111,16 @@
     <!-- BMI Calculator Section -->
     <section>
         <div class="BMI-content">
-            <h1 class="BMI-title">BMI Calculator</h1>
-            <p class="BMI-description">Determine your body mass index by inputting your weight and height, providing
-                insights into your <br> weight category.</p>
+            <h1>BMI Calculator</h1>
+            <p>Your body mass index by inputting your weight and <br> height, providing insights into your weight category.</p>
         </div>
 
         <!-- left side -->
-
         <div class="Calculate-BMI">
             <div class="container calculate-bmi-child">
                 <div>
                     <h3 class="BMI-chart-title">BMI Calculator Chart</h3>
-                    <table border="1" style="border: solid rgba(255, 255, 255, 0.1) none">
+                    <table border="1" style="border: solid rgba(255, 255, 255, 0.1) none" class="table-chart">
                         <tr>
                             <th class="status-color">BMI</th>
                             <th class="status-color">Weight Status</th>
@@ -151,13 +146,11 @@
                 </div>
 
                 <!-- Right side -->
-                <div class="BMI-Container">
+                <div>
                     <div class="BMI-content">
                         <h3 class="Calculate-title">Calculate your BMI</h3>
-                        <p class="Calculate-description">helps you quickly determine your body mass index, providing
-                            insights into your weight
-                            category
-                            and overall health.</p>
+                        <p class="Calculate-description">Helps you quickly determine your body mass index, providing
+                            insights into your overall health.</p>
                     </div>
 
                     <!-- calculate bmi form -->
@@ -176,8 +169,7 @@
                             <option value="">Super Active</option>
                         </select>
                     </form>
-                    <button class="btn-secondary">Calculate</button>
-
+                    <button class="button-primary">Calculate</button>
                 </div>
             </div>
         </div>
@@ -185,16 +177,15 @@
 
     <!-- meet our team section -->
     <section>
-        <div class="Our-team">
+        <div class="Our-team container">
             <!-- team text -->
             <div class=" team-text">
                 <h1 class="team-title">Meet Our Team</h1>
-                <p class="team-description">Showcasing their expertise and passion. Discover the diverse skills and
-                    backgrounds that drive <br> our success and commitment to excellence.</p>
+                <p class="team-description">Showcasing their expertise and passion. Discover the diverse skills and <br> that drive our success and commitment to excellence.</p>
             </div>
 
             <!-- team img -->
-            <div class="team-container container">
+            <div class="team-container">
                 <div class="trainer-bg-one trainer-styles">
                     <span class="team-content">
                         <h4>Jerome Bell</h4>
@@ -236,37 +227,38 @@
     </section>
 
     <!-- Send Message Section -->
-
     <Section class="container send-section">
         <h6 class="send-message-title">Send Message</h6>
         <div class="send-message-form">
             <div class="name-section">
                 <p>Your Name</p>
                 <br>
-                <input type="text" style="width: 600px;"> 
+                <input type="text" ; class="input-class">
             </div>
 
             <div class="">
                 <p>Your Email</p>
                 <br>
-                <input type="email" style="width: 600px";>
+                <input type="email" class="input-class">
             </div>
 
             <div>
                 <p>Phone Number</p>
                 <br>
-                <input type="number" style="width: 600px";>
+                <input type="number" class="input-class">
             </div>
 
             <div>
                 <p>Your Message</p>
                 <br>
-                <input type="text" style="width: 600px";>
+                <input type="text" class="input-class">
             </div>
 
-            <div class="description-button">
-            <p class="description">Quickly communicate with others,thoughts, <br> through various messaging platforms.</p>
-            <button class="button-primary">SEND MESSAGE</button>
+            <div>
+                <p>Quickly communicate with others,thoughts, <br> through various messaging
+                    platforms.
+                </p>
+                <button style="margin-top: 26px;" class="button-secondary">SEND MESSAGE</button>
             </div>
         </div>
     </Section>
@@ -274,14 +266,12 @@
 
 
 <!-- Footer-->
-<footer class="inter-font footer-container" style="border: 1px solid rgba(255, 255, 255, 0.1)">
-
+<footer class="inter-font" style="border: 1px solid rgba(255, 255, 255, 0.1);">
     <!-- footer-content -->
     <div class="footer-content-parent container">
         <div class="content">
             <h1 class="website-title">Fitness</h1>
-            <p class="fitness-description">Comprehensive advice on exercises, routines, and wellness <br> practices to
-                boost
+            <p class="fitness-description">Comprehensive advice on exercises, routines, and wellness <br> practices to boost
                 physical health, enhance strength, and <br> improve overall well-being.</p>
         </div>
         <!-- footer - options -->
@@ -301,9 +291,11 @@
         </div>
 
     </div>
+    <div class="hr-section">
     <hr />
+    </div>
     <div class="All-right-reserved">
-        <p class="reserved-section">All right reserved @Fitness 2024</p>
+        <p>All right reserved @Fitness 2024</p>
     </div>
 </footer>
 

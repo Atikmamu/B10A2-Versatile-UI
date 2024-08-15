@@ -32,7 +32,7 @@ footer {
     font-weight: 400;
     font-style: normal;
     font-size: 120px;
-    
+
 }
 
 /* default styles */
@@ -42,39 +42,17 @@ footer {
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 
 }
 
-
-h3 {
-    font-size: 36px;
-    text-align: center;
-    font-weight: 800;
-    line-height: normal;
-}
-
 /* Navbar styles */
 .nav-bar {
-    height: 68px;
     margin-top: 57px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    flex-direction: row;
-}
-
-.text {
-    display: flex;
-    align-items: center;
-    width: 132px;
-    height: 43px;
-    padding: 0px;
-    margin: 0px 10px;
-    justify-content: flex-start;
-    flex-direction: row;
 }
 
 .website {
@@ -86,17 +64,12 @@ h3 {
 
 .nav-options {
     width: 465px;
-    height: 46px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
     padding: 4px;
     margin: 0px 10px;
-    box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    cursor: pointer;
 }
 
 .option {
@@ -110,31 +83,33 @@ h3 {
     flex-direction: row;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: white;
     border-radius: 46px;
 }
 
 .options {
-    width: 64px;
-    height: 22px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
-    padding: 4px;
     margin: 0px 47px;
     font-size: 18px;
-    font-weight: 400;
     gap: 47px;
 }
 
 /* banner styles */
-
-
 .banner-title {
     font-size: 78px;
-    color: rgb(255, 255, 255);
-    margin: 28px 0px;
+    color: white;
+    padding: 28px 0px;
+}
+
+.banner-content {
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.explore-your-fitness {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -146,230 +121,67 @@ h3 {
 .btn-primary {
     background-color: rgb(230, 83, 60);
     border-radius: 42px;
-    margin: 0px 14px;
     padding: 16px 40px 16px 40px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 18px;
     font-weight: 600;
-    box-sizing: border-box;
-    border: 1px solid rgb(230, 83, 60);
+    border: none;
     cursor: pointer;
 }
 
 .light-gray {
     background-color: rgb(17, 17, 17);
-    color: rgb(255, 255, 255);
+    color: white;
     border-radius: 42px;
     box-sizing: border-box;
     font-size: 18px;
     font-weight: 600;
     margin: 0px 10px;
     padding: 16px 40px 16px 40px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid white;
     cursor: pointer;
 }
 
-.banner-image{
-    height: 580px;
-    margin-top:67px;
-}
-
-.parent-section{
-     height: 700px;
-}
-
-
 /* change your habit styles */
 
-.habits-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    margin: 14px 0px;
-    font-size: 48px;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
+.habit-section {
+    padding-top: 100px;
 }
 
-.habits-description {
+.habits-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0px;
+}
+
+.habit-description {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 14px 0px;
+}
+
+.title-child {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+
+.habit-content {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    margin: 14px 0px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
 }
 
 .gym-bar {
-    width: 1044px;
-    height: 274px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    margin: 58px 0px;
-}
-
-.movement-container {
-    width: 231px;
-    height: 274px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    margin: 0px 40px;
+    padding: 58px 16px;
 }
 
 .gym-img {
     border-radius: 100%;
-}
-
-.movement-title {
-    width: 93px;
-    height: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 0px;
-    margin: 6px 0px;
-    font-size: 18px;
-    font-weight: 600;
-    align-items: center;
-}
-
-.movement-description {
-    width: 231px;
-    height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    margin: 6px 0px;
-}
-
-.time-container {
-    width: 231px;
-    height: 274px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    margin: 0px 40px;
-}
-
-.time-title {
-    width: 44px;
-    height: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px;
-    margin: 6px 0px;
-    font-size: 18px;
-    font-weight: 600;
-    align-items: center;
-    color: rgb(255, 255, 255);
-}
-
-.time-description {
-    width: 231px;
-    height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    margin: 6px 0px;
-}
-
-.practice-container {
-    width: 231px;
-    height: 274px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    margin: 0px 40px;
-}
-
-.practice-title {
-    width: 72px;
-    height: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 0px;
-    margin: 6px 0px;
-    font-size: 18px;
-    font-weight: 600;
-    align-items: center;
-}
-
-.practice-description {
-    width: 231px;
-    height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    margin: 6px 0px;
-}
-
-.weight-container {
-    width: 231px;
-    height: 274px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    margin: 0px 40px;
-}
-
-.weight-title {
-    width: 107px;
-    height: 22px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 0px;
-    margin: 6px 0px;
-    font-size: 18px;
-    font-weight: 600;
-    align-items: center;
-}
-
-.weight-description {
-    width: 231px;
-    height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    margin: 6px 0px;
 }
 
 
@@ -384,16 +196,7 @@ h3 {
 }
 
 .run-text {
-    width: 443px;
-    height: 290px;
-    margin-left: 54px;
-    margin-top: 41px;
-    margin-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
+    padding: 50px;
 }
 
 .run-title {
@@ -402,21 +205,12 @@ h3 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0px;
     margin: 14px 0px;
     font-size: 48px;
     font-weight: 900;
-    color: rgb(255, 255, 255);
 }
 
 .run-description {
-    width: 443px;
-    height: 72px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
     margin: 14px 0px;
     font-size: 14px;
     font-weight: 400;
@@ -426,17 +220,13 @@ h3 {
 .btn-secondary {
     width: 224px;
     height: 54px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
     padding: 16px 40px 16px 40px;
     margin: 34px 0px;
     border-radius: 42px;
     background-color: rgb(230, 83, 60);
     font-size: 18px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: white;
     box-sizing: border-box;
     border: 1px solid rgb(230, 83, 60);
     gap: 34px;
@@ -454,54 +244,40 @@ h3 {
 /* BMI Calculator Styles */
 
 .BMI-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px;
+    text-align: center;
 }
 
-.BMI-title {
-    width: 353px;
-    height: 58px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 14px 0px;
+.BMI-content h1 {
     font-size: 48px;
     font-weight: 900;
-    color: rgb(255, 255, 255);
 }
 
-.BMI-description {
-    width: 671px;
-    height: 48px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 14px 0px;
+.BMI-content p {
     font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: 16px;
 }
 
 .BMI-chart-title {
     height: 34px;
     display: flex;
-    padding: 0px;
     margin: 14px 0px;
     font-size: 28px;
     font-weight: 900;
     margin-top: 34px;
 }
 
+.table-chart {
+    flex-direction: column;
+    width: 310px;
+    font-size: 16px;
+    font-weight: 900;
+    height: 216px;
+}
+
 .Calculate-BMI {
     background-color: rgb(34, 34, 34);
-    height: 487px;
     margin: 88px 0px;
 }
 
@@ -547,7 +323,7 @@ h3 {
 .status-color {
     width: 108px;
     height: 19px;
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 16px;
     font-weight: 500;
 }
@@ -569,11 +345,23 @@ td {
     grid-column: span 2;
 }
 
+.button-primary {
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 /* Meet Our Team section style */
 
 .Our-team {
     margin-top: 88px;
-    height: 830px;
 }
 
 .team-title {
@@ -584,14 +372,10 @@ td {
     margin: 14px 0px;
     font-size: 48px;
     font-weight: 900;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .team-description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
     margin: 14px 0px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -648,8 +432,13 @@ td {
 
 /* Send - Message-Style */
 
-.send-section{
+.send-section {
+    margin-top: 88px;
     margin-bottom: 88px;
+}
+
+.input-class {
+    width: 600px;
 }
 
 .send-message-form {
@@ -660,27 +449,15 @@ td {
     gap: 20px;
 }
 
-.button-primary{
-    background-color: rgba(55, 128, 0, 0.5);
-    border-radius: 42px;
-    margin: 0px 14px;
-    padding: 16px 40px 16px 40px;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
-    box-sizing: border-box;
-    border: 1px solid rgba(55, 128, 0, 0.5);
-    cursor: pointer;
+.send-message-form input {
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    border: none;
+    color: gray;
+    background: rgba(255, 255, 255, 0.1);
 }
 
-.description-button{
-    display: flex;
-    justify-content: space-between;
-
-    
-}
-
-.send-message-title{
+.send-message-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -688,7 +465,18 @@ td {
     margin: 14px 0px;
     font-size: 48px;
     font-weight: 900;
-    color: rgb(255, 255, 255);
+    color: white;
+}
+
+.button-secondary {
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -701,8 +489,9 @@ h1 {
     line-height: normal;
 }
 
-p{
-    color:  rgba(255, 255, 255, 0.5);;
+p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
 }
 
 h4 {
@@ -713,7 +502,7 @@ h4 {
     align-items: flex-start;
     margin: 39px 0px;
     padding: 0px;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .style-section {
@@ -732,7 +521,6 @@ h4 {
 .footer-content-parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 350px;
 }
 
 .content {
@@ -787,10 +575,276 @@ h4 {
     font-weight: 400;
     display: flex;
     justify-content: center;
-    margin-bottom: 19px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.footer-container hr {
-    margin: 1.8rem;
+.hr-section{
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+
+.ham-burger {
+    display: none;
+}
+
+/* Responsive  design*/
+@media screen and (max-width: 600px) {
+    .nav-options {
+        display: none;
+    }
+
+    .website {
+        padding: 20px;
+    }
+
+    .ham-burger {
+        display: block;
+        color: white;
+        font-size: 26px;
+        flex-direction: column;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-img {
+        margin-top: 0;
+    }
+
+
+    .Miama-font {
+        font-size: 65px;
+    }
+
+    .text-description {
+        margin: 28px 0px;
+        font-weight: 400;
+        padding: 20px;
+    }
+
+    .option {
+        flex-direction: column;
+    }
+
+    .options {
+        flex-direction: column;
+    }
+
+    .explore-your-fitness {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .habit-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .habits-title {
+        flex-direction: column;
+        font-size: 32px;
+        padding: 20px;
+    }
+
+    .habits-description {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .run-title {
+        margin: 14px 0px;
+        font-size: 32px;
+    }
+
+    .run-description {
+        margin: 14px 0px;
+        font-size: 14px;
+    }
+
+    .run-bar {
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 900;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .run-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 75px;
+        margin-bottom: 35px;
+        margin-top: -5px;
+    }
+
+    .btn-primary {
+        height: 54px;
+        margin: -10px;
+
+    }
+
+    .light-gray {
+        width: 169px;
+        height: 54px;
+        padding: -0px;
+        margin: -10px;
+    }
+
+    .btn-primary .span-tag {
+        display: none;
+    }
+
+    .button-parent {
+        display: flex;
+        gap: 40px;
+    }
+
+    .btn-secondary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gym-bar {
+        flex-direction: column;
+        margin: 0px 20px;
+        border-radius: 18px;
+        padding: 20px;
+    }
+
+    .BMI-content h1 {
+        font-size: 32px;
+    }
+
+    .BMI-content p {
+        font-size: 14px;
+    }
+
+    .calculate-bmi-child {
+        flex-direction: column;
+    }
+
+    .BMI-chart-title {
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    .Calculate-title {
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    .Calculate-description {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+
+    .from-content {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    .activity-select {
+        grid-column: 1;
+    }
+
+    .button-primary {
+        margin: 20px;
+    }
+
+    .table-chart {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .Our-team {
+        flex-direction: column;
+
+    }
+
+    .team-title {
+        flex-direction: column;
+        margin: 14px 0px;
+        font-size: 32px;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    .team-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        border-radius: 18px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .trainer-bg-one {
+        display: none;
+    }
+
+    .trainer-bg-four {
+        display: none;
+    }
+
+    .send-section {
+        flex-direction: column;
+    }
+
+    .send-message-title {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        margin: 14px 0px;
+        font-size: 32px;
+        font-weight: 900;
+        padding: 20px;
+    }
+
+    .send-message-form {
+        grid-template-columns: repeat(1, 1fr);
+        border-radius: 18px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-content-parent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .website-title{
+        padding: 20px;
+    }
+
+    .fitness-description{
+        padding: 20px;
+    }
+
+    .content {
+        grid-column: 1 ;
+    }
+
+    .input-class {
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 900;
+        padding: 20px;
+        margin-right: 30px;
+        width: 90%;
+    }
 }
