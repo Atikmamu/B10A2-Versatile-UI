@@ -142,6 +142,10 @@ footer {
     cursor: pointer;
 }
 
+.banner-img{
+    height: 660px;
+}
+
 /* change your habit styles */
 
 .habit-section {
@@ -614,7 +618,7 @@ h4 {
     }
 
     .banner-img {
-        margin-top: 0;
+        
     }
 
 
